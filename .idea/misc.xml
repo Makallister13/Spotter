@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1185" />
         <entry key="app/src/main/res/drawable/profile_image.xml" value="0.1955" />
         <entry key="app/src/main/res/drawable/round_image.xml" value="0.1955" />
@@ -10,6 +11,13 @@
         <entry key="app/src/main/res/layout/activity_maps.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/main_activity.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/profile_view.xml" value="0.165" />
+        <entry key="..\:/Users/arnau/AndroidStudioProjects/Spotter/app/src/main/res/drawable/ic_baseline_feed_24.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/arnau/AndroidStudioProjects/Spotter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/arnau/AndroidStudioProjects/Spotter/app/src/main/res/drawable/ic_map.xml" value="0.25435897435897437" />
+        <entry key="..\:/Users/arnau/AndroidStudioProjects/Spotter/app/src/main/res/layout/activity_maps.xml" value="0.11778115501519756" />
+        <entry key="..\:/Users/arnau/AndroidStudioProjects/Spotter/app/src/main/res/layout/main_activity.xml" value="0.176" />
+        <entry key="..\:/Users/arnau/AndroidStudioProjects/Spotter/app/src/main/res/menu/nav_menu.xml" value="0.23148148148148148" />
+
       </map>
     </option>
   </component>
@@ -18,5 +26,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
   </component>
 </project>
