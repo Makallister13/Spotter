@@ -51,14 +51,16 @@
 
         </androidx.cardview.widget.CardView>
 
-            <com.google.android.material.navigation.NavigationView
+            <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@color/main_background"
                 android:layout_marginTop="25dp"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
                 app:menu="@menu/nav_menu"
                 >
-            </com.google.android.material.navigation.NavigationView>
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
 
         <view class="androidx.appcompat.app.AlertController$RecycleListView"
             android:layout_width="match_parent"
