@@ -9,43 +9,63 @@
     android:layout_centerVertical="true"
     android:orientation="vertical"
     android:src="@drawable/profile_image"
-
-
     >
 
-    <TextView
-        android:id="@+id/fullname_field"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_toRightOf="@+id/profile_image"
-        android:fontFamily="@font/oswald"
-        android:includeFontPadding="false"
-        android:text="Mankros Von Fausto"
-        android:textColor="@color/primary_font"
-        android:textSize="35sp">
-
-
-    </TextView>
-    <androidx.cardview.widget.CardView android:layout_height="200dp"
-        android:layout_width="200dp"
-        android:layout_marginHorizontal="@dimen/material_emphasis_disabled_background"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="40dp"
-        android:scaleType="center"
-        app:cardCornerRadius="500dp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         >
 
-        <ImageView
-            android:id="@android:id/empty"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_marginHorizontal="@dimen/material_emphasis_disabled_background"
-            android:layout_marginStart="0dp"
+        <TextView
+            android:id="@+id/fullname_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="0dp"
-            android:layout_gravity="center"
-            android:src="@drawable/logo_size_invert" />
-    </androidx.cardview.widget.CardView>
+            android:fontFamily="@font/oswald"
+            android:includeFontPadding="false"
+            android:text="Mankros Von Fausto"
+            android:textColor="@color/primary_font"
+            android:textSize="35sp">
+        </TextView>
+
+        <androidx.cardview.widget.CardView android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_marginHorizontal="200dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:scaleType="center"
+            app:cardCornerRadius="500dp"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:id="@android:id/empty"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/logo_size_invert" />
+
+        </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.navigation.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/main_background"
+                android:layout_marginTop="25dp"
+                app:menu="@menu/nav_menu"
+                >
+            </com.google.android.material.navigation.NavigationView>
+
+        <view class="androidx.appcompat.app.AlertController$RecycleListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </view>
+
+    </LinearLayout>
+
 </LinearLayout>
