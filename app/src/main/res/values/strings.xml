@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Spotter</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="default_info_title" />
+    <string name="pick_place" />
+    <string name="default_info_snippet">test</string>
 </resources>
